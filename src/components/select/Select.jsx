@@ -8,11 +8,15 @@ export const Select = ({options = [], primary, size = 'medium'}) => {
   styles = styles.concat(` ${size}`);
   console.log(styles);
   return (
-    <select className={styles}>
+    <>
+    <label for="select">Click me</label>
+
+    <select id="select" className={styles}>
       { options.map((opt, i) => (
         <option key={i} value={opt}>{opt}</option>
       ))}
     </select>
+    </>
   )
 
 }
