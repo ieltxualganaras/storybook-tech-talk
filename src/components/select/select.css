@@ -1,15 +1,36 @@
 .select {
   /* appearance: none; */
-  background-color: blue;
-  color: white;
   border: none;
   border-radius: 10px;
-  padding: 0 1em 0 1em;
-  margin: 0;
-  min-height: 40px;
+
   /* width: 100px; */
   font-family: inherit;
   font-size: inherit;
   cursor: inherit;
   line-height: inherit;
+}
+
+.primary {
+  background-color: blue;
+  color: white;
+}
+
+.secondary {
+  background-color: white;
+  color: blue;
+}
+
+.small {
+  padding: 0 0.5em 0 0.5em;
+  min-height: 25px;
+}
+
+.medium {
+  padding: 0 1em 0 1em;
+  min-height: 40px;
+}
+
+.large {
+  padding: 0 1.5em 0 1.5em;
+  min-height: 60px;
 }
