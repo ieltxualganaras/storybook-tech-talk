@@ -1,0 +1,15 @@
+.select {
+  /* appearance: none; */
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0 1em 0 1em;
+  margin: 0;
+  min-height: 40px;
+  /* width: 100px; */
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
