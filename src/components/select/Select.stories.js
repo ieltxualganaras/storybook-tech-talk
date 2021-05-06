@@ -3,7 +3,7 @@ import React from 'react';
 import { Select } from './Select';
 
 export default {
-  title: 'Select component',
+  title: 'Components/Inputs/Select',
   component: Select,
   argTypes: {
     color: { control: 'color' },
