@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Button label="Test"></Button>
-      <Select options={options}></Select>
+      <Select primary options={options}></Select>
     </div>
   );
 }
